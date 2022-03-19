@@ -1,3 +1,5 @@
+import sys
+sys.path.append(".")
 import re
 import json
 import pandas as pd
@@ -12,8 +14,7 @@ import domain
 from preprocess import read_data
 from algorithm import similarity
 from algorithm import recommendation
-import sys
-sys.path.append(".")
+
 
 
 # from lxml import etree
